@@ -4,7 +4,7 @@ import PopupMenu from "./PopupMenu";
 import Hero from "./Hero";
 
 function App() {
-  const items = ['Dashboard', 'Projects', 'Team', 'Settings', 'Best Swar']
+  const items = ['Dashboard', 'Projects', 'Team', 'Settings', 'Best Swar', 'Rohit Sharma']
   const list = ["a", "b", "c", "d", 'aa']
 
   const text = ["Lorem, ipsum dolor.","lorem gh tuygih hjk", "wertyuyhgtrf", "dsefrgthyju"]
