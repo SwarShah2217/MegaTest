@@ -1,7 +1,7 @@
-import Message from "./Message";
-import ListGroup from "./ListGroup";
-import PopupMenu from "./PopupMenu";
-import Hero from "./Hero";
+import Message from "./components/Message";
+import ListGroup from "./components/ListGroup";
+import PopupMenu from "./components/PopupMenu";
+import Hero from "./components/Hero";
 
 function App() {
   const items = ['Dashboard', 'Projects', 'Team', 'Settings', 'Best Swar', 'Rohit Sharma']
