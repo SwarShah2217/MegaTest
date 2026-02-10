@@ -1,15 +1,16 @@
 import { useState } from "react"
 import Page1 from "./Page1"
 import Page2 from "./Page2";
+import { Routes, Route } from "react-router-dom";
 
 
 function App() {
-  const [page, setPage] = useState("Page1");
   return(
-  <>
-    {page === "Page1" && <Page1 goToPage={setPage} />}
-    {page === "Page2" && <Page2 />}
-  </>
+    <Routes>
+      <Route path="/" element={<Page1 />} />
+      <Route path="/page1" element={<Page1 />} />
+      <Route path="/page2" element={<Page2 />} />
+    </Routes>
   )
 }
 

@@ -2,7 +2,7 @@
 function Page2() {
   return(
   <>
-    <div><p>HELLLLo</p></div> 
+    <div><p>HELLLLOO</p></div> 
   </>
   )
 }
