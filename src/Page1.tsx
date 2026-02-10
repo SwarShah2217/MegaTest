@@ -16,10 +16,6 @@ function Page1() {
     <div><ListGroup items = {items} heading="LIST"/></div>
     <div><PopupMenu list = {list} propFunction={(num)=>{console.log(num)}}/></div>
     <div><Hero text = {text} img = {img}/></div>
-
-    {/* <div><Cards text = {text} img = {img}/></div>
-    <div><Cards text = {text} img = {img}/></div>
-    <div><Cards text = {text} img = {img}/></div> */}
   </>
 }
 
