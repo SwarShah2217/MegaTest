@@ -2,6 +2,8 @@ import Message from "./components/Message"
 import ListGroup from "./components/ListGroup"
 import PopupMenu from "./components/PopupMenu"
 import Hero from "./components/Hero"
+import Navbar from "./components/Navbar"
+
 
 function Page1() {
   const items = ["Dashboard", "Projects", "Team", "Settings"]
@@ -22,10 +24,13 @@ function Page1() {
   ]
 
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="min-h-screen bg-gray-100 dark:bg-gray-900 transition">
+
+      <Navbar />
+
       <div className="max-w-6xl mx-auto p-6 space-y-8">
 
-        <div className="text-2xl font-bold text-center">
+        <div className="text-2xl font-bold text-center text-gray-800 dark:text-white">
           <Message />
         </div>
 
@@ -39,6 +44,7 @@ function Page1() {
       <Hero text={text} img={img} />
     </div>
   )
+
 }
 
 export default Page1
